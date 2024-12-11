@@ -14,8 +14,8 @@ bank_account_validation_plan_client = BankAccountValidationPlan::BankAccountVali
 puts "Test ABAAcctVerification Post:"
 
 aba_acct_verification_request_model = {
-  bank_routing_number: "011103093",
-  bank_account_number: "9942192099"
+  bankRoutingNumber: "011103093",
+  bankAccountNumber: "9942192099"
 }.to_json
 
 aba_acct_verification_post = bank_account_validation_plan_client.aba_acct_verification_client.post(aba_acct_verification_request_model)

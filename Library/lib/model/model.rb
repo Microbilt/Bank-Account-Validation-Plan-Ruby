@@ -1,3 +1,3 @@
 class ABAAcctVerificationRequestModel
-  attr_accessor :bank_routing_number, :bank_account_number
+  attr_accessor :bankRoutingNumber, :bankAccountNumber
 end
